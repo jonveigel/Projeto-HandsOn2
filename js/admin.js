@@ -75,3 +75,15 @@ const listarEventos = async () => {
 }
 
 listarEventos();
+
+
+window.onload = () => {
+    console.log('pagina carregada');
+    const url = new URL(window.location.href);
+
+    const acao = url.searchParams.get('acao');
+
+    if (acao != null && acao == 'edit') {
+        alert('Evento atualizado com sucesso')
+    }
+}
