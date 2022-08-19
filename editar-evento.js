@@ -10,7 +10,7 @@ const findID = () => {
 
 const exibirDetalhesEvento = async () => {
     const dadosEvento =
-        await fetch('https://xp41-soundgarden-api.herokuapp.com/events/' + "/" + findID(), {
+        await fetch('https://xp41-soundgarden-api.herokuapp.com/events' + "/" + findID(), {
             method: "GET",
             mode: "cors",
             headers: {
