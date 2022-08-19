@@ -28,6 +28,4 @@ function listarReservas(reservas) {
     });
   }
   
-  // chamando a function
-  
   exibirReservas();

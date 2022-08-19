@@ -14,7 +14,7 @@ O site está separado em duas partes:
 
 Instruções gerais:
 
-*PAINEL DE CONTROLE*
+*Painel de Controle*
 1. Criar Evento: receba os dados que o usuário inserir
 através do formulário da página criar-evento.html e
 envie essa informação para a API utilizando o
@@ -59,19 +59,30 @@ landing page. Esse banner deverá exibir alguns
 eventos de destaque para os usuários.
 
 *Critérios de Avaliação*
+
 ● O site deve ser disponibilizado no Github Pages, com
 todas as imagens renderizando corretamente.
+<br>
 ● Você deve sempre fazer tratamento de erros quando
 usar as promises usando as estruturas de catch.
+<br>
 ● Funcionalidades:
+<br>
 ○ Criar Evento;
+<br>
 ○ Editar Evento;
+<br>
 ○ Excluir Evento;
+<br>
 ○ Listar eventos;
+<br>
 ○ Criar reservas nos eventos;
+<br>
 ○ Listar reservas;
+<br>
 
 *Quais os entregáveis desse desafio?*
 
 ● Código disponibilizado no Github;
+<br>
 ● Páginas publicadas no Github Pages;
